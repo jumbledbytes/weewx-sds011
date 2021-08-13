@@ -4,6 +4,8 @@ Distributed under terms of the GPLv3
 
 This is a driver for weewx that collects data from SDS011 particulate sensor.
 
+This driver is forked from https://github.com/matthewwall/weewx-sds011 and updated to run with Python3 and weewx >= v4.0
+
 
 ===============================================================================
 Installation
@@ -12,7 +14,7 @@ Installation
 
 1) Download the SDS011 extension
 
-wget -O weewx-sds011.zip https://github.com/matthewwall/weewx-sds011/archive/master.zip
+wget -O weewx-sds011.zip https://github.com/jumbledbytes/weewx-sds011/archive/master.zip
 
 2) Install the extension
 
